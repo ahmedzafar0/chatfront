@@ -42,7 +42,7 @@ function Sidebar() {
     });
 
     function getRooms() {
-        fetch("http://localhost:5000/rooms")
+        fetch("http://13.233.41.75:5000/rooms")
             .then((res) => res.json())
             .then((data) => setRooms(data));
     }
