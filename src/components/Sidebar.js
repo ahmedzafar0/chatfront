@@ -42,7 +42,7 @@ function Sidebar() {
     });
 
     function getRooms() {
-        fetch("https://phygibackend.herokuapp.com/rooms")
+        fetch("http://localhost:5000/rooms")
             .then((res) => res.json())
             .then((data) => setRooms(data));
     }
